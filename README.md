@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+📚 Bookstore-frontend
 
-## Getting Started
+🌐 A Next.js-based Frontend Application
 
-First, run the development server:
+📌 Overview
 
-```bash
+The newfrontend project is a modern web application built using Next.js and React, featuring seamless API integration, responsive design, and efficient state management.
+
+🔑 Key Features
+
+✅ Next.js 15.1.0 for optimized performance ⚡✅ React 19.0.0 for dynamic UI development ⚛️✅ TypeScript support for type safety 🛡️✅ API integration using Axios 🌍✅ Client-side routing with React Router DOM 🚦✅ Carousel support using React Slick 🎠✅ Enhanced alerts with SweetAlert2 🔔✅ Fully responsive design with Tailwind CSS 📱💻
+
+🛠️ Tech Stack
+
+Framework: Next.js 15.1.0 🚀
+
+Frontend: React.js 19.0.0 ⚛️
+
+Styling: Tailwind CSS 🎨
+
+API Requests: Axios 🌍
+
+UI Components: React Slick, SweetAlert2 🖼️
+
+📸 Screenshots
+
+(Include screenshots of your app here)
+
+🚀 Getting Started
+
+🔧 Installation
+
+Clone the repository:
+
+git clone 
+cd newfrontend
+
+Install dependencies:
+
+npm install
+
+🎯 Available Scripts
+
+▶️ Run Development Server
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Runs the Next.js development server on port 5000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+📦 Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+npm run build
 
-## Learn More
+Creates an optimized production build.
 
-To learn more about Next.js, take a look at the following resources:
+🚀 Start Production Server
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+npm run start
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Starts the production server.
 
-## Deploy on Vercel
+🛠️ Lint Code
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+npm run lint
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Runs ESLint to check for code quality issues.
+
+📁 Folder Structure
+
+newfrontend/
+├── pages/           # Next.js pages
+├── components/      # Reusable React components
+├── styles/         # Global styles
+├── public/         # Static assets
+├── utils/          # Utility functions
+├── package.json    # Project metadata and dependencies
+├── tsconfig.json   # TypeScript configuration
+└── README.md       # Project documentation
+
+📜 License
+
+This project is licensed under the MIT License.
+
+👨‍💻 Author
+
+Developed by Rushikesh Umesh Patil.
+
